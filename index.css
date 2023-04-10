@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#ZatiniBar {
+    
+    background-color:#370F53;
+    display: flex;
+    height: 4vh;
+   align-items: center;
+   justify-content: space-around;
+   gap: 10px;
+
+  }
+#Zatini_Name{
+    margin-top: 6px;
+    padding: 0;
+    padding-left: 155px;
+}
+.propagandatopo{
+  margin-right: 800px;
+  padding: 0;
+  font-size: 12px;
+  display: flex;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.acessibilidade {
+  color: #fff;
+}
+.about {
+  color: #fff;
+}
+#Netbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: #5A2D82;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.LogoNet{
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.icolocali {
+  display: flex;
+  
+}
+
+
+.barra-navegacao {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: 60px;
+  margin-left: 10px;
+ 
+}
+.search-container {
+  
+  width: 65%;
+  max-width: 620px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-container input[type="text"]:focus {
+  outline: none;
+}
+
+.search-container button {
+  background-color: white;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+}
+
+.search-container button svg {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-container button:hover {
+  background-color: #005a9e;
+ 
+}
+.Direitatopo{
+  margin: 0;
+  padding: 0;
+  
+}
+.ListaDesejo {
+  margin-right: 160px;
+  color: white;
+  font-size:120%;
+  font-weight: 600px;
+  line-height: 17px;
+  text-align: right;
+  cursor: pointer;
+}
+.login {
+  color: #fff;
+  cursor: pointer;
+  font-size: 60%;
+  margin-right: 200px;
+}
+  
+
+#compremag{
+    background-color: #5A2D82;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+    
+
+.barra-navegacao {
+    
+    
+    margin: 0;
+    padding: 0;
+    background-color: white; /* cor de fundo da barra de navegação */
+    overflow: hidden; /* para lidar com links de navegação longos */
+  }
+  
+  .barra-navegacao li {
+    float: left; /* exibir links em linha */
+  }
+  
+  .barra-navegacao li a {
+    display: block; /* converter link em bloco para preencher largura total do pai */
+    color: gray;
+    text-align: center;
+    padding: 14px 20px; /* adicionar preenchimento ao redor do link */
+    text-decoration: none;
+    
+  }
+  
+  /* alterar cor de fundo do link quando o mouse passa por cima */
+  .barra-navegacao li a:hover {
+    background-color: gray;
+  }
+  .Enviarpara{
+    
+    display: flex;
+  }
+  .iconlocali{
+    
+    display: flex;
+  }
+ .doisporcem {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ }
+ .propaganda2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 1px;
+ }
+ .proptexto {
+  color: #5A2D82;
+  font-family: netshoes_displaybold,sans-serif;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 630px;
+  display: block;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  font-weight: 700;
+ }
+ .variascompras {
+  display: flex;
+  
+ }
+ .itenscompra{
+  margin: 0;
+  padding: 0;
+ }
